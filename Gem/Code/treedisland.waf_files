@@ -1,0 +1,49 @@
+{
+    "none": {
+        "Source": [
+            "Source/StdAfx.cpp",
+            "Source/StdAfx.h"
+        ]
+    },
+    "auto": {
+        "Include": [
+            "Include/TreedIsland/ServerPlayerBodyBus.h",
+            "Include/TreedIsland/LocalClientBus.h",
+            "Include/TreedIsland/NetworkTimeRequestBus.h",
+            "Include/TreedIsland/PlayerActionsBus.h",
+            "Include/TreedIsland/LocalPredictionRequestBus.h",
+            "Include/TreedIsland/PlayerControlsBus.h"
+        ],
+        "Source": [
+            "Source/TreedIslandModule.cpp"
+        ],
+        "Source/System": [
+            "Source/System/NetworkTimeSystemComponent.cpp",
+            "Source/System/NetworkTimeSystemComponent.h"
+        ],
+        "Source/Utils": [
+            "Source/Utils/VectorInTime.cpp",
+            "Source/Utils/VectorInTime.h",
+            "Source/Utils/MovementHistory.cpp",
+            "Source/Utils/MovementHistory.h"
+        ],
+        "Source/Components": [
+            "Source/Components/InputCaptureComponent.cpp",
+            "Source/Components/InputCaptureComponent.h",
+            "Source/Components/LocalClientComponent.cpp",
+            "Source/Components/LocalClientComponent.h",
+            "Source/Components/LocalPredictionComponent.cpp",
+            "Source/Components/LocalPredictionComponent.h",
+            "Source/Components/PebbleSpawnerComponent.cpp",
+            "Source/Components/PebbleSpawnerComponent.h",
+            "Source/Components/ServerPlayerSpawnerComponent.cpp",
+            "Source/Components/ServerPlayerSpawnerComponent.h",
+            "Source/Components/ServerAuthPlayerComponent.cpp",
+            "Source/Components/ServerAuthPlayerComponent.h",
+            "Source/Components/ServerPlayerControlsComponent.cpp",
+            "Source/Components/ServerPlayerControlsComponent.h",
+            "Source/Components/TimedProjectileComponent.cpp",
+            "Source/Components/TimedProjectileComponent.h"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Configuration for TreedIsland",
+    "visual_studio_name": "TreedIsland",
+    "comment" : "",
+    "game_projects" : "TreedIsland",
+
+    "modules" : [
+    ]
+}
