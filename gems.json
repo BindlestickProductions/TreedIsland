@@ -8,10 +8,10 @@
             "_comment": "PBSreferenceMaterials"
         },
         {
-            "Path": "Gems/WindowPosition",
+            "Path": "Gems/WindowPositionGem",
             "Uuid": "081922bcf58844ef887a1b6b3574240a",
             "Version": "0.1.0",
-            "_comment": "WindowPosition"
+            "_comment": "WindowPositionGem"
         },
         {
             "Path": "Gems/LyShine",
